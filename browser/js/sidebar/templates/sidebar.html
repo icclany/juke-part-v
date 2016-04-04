@@ -1,0 +1,23 @@
+<img src="juke.png" class="logo">
+<section>
+  <h2 ui-sref-active="active" class="menu-item active">
+    <a ui-sref="albums">Albums</a>
+  </h2>
+</section>
+<section>
+  <h2 ui-sref-active="active" class="menu-item">
+    <a ui-sref="artists">Artists</a>
+  </h2>
+</section>
+<hr>
+<section ng-controller="PlaylistsCtrl">
+  <h2 class="text-muted">Playlists</h2>
+  <p ui-sref-active="active" ng-repeat="playlist in playlists" class="menu-item">
+    <a ui-sref="playlist({playlistId: playlist._id })">
+      {{ playlist.name }}
+    </a>
+  </p>
+  <p>
+    <a ui-sref="newPlaylist" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-plus"></span> PLAYLIST</a>
+  </p>
+</section>
