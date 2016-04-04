@@ -4,6 +4,7 @@
 body {
   /*background: #222222;*/
   background: #FFE4E1;
+  background: linear-gradient(#222222, #FFFFFF);
   padding-bottom: 56px; }
 
 #main {

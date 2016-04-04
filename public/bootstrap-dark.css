@@ -2288,6 +2288,7 @@ th {
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #1c1e22;
+  background: linear-gradient(black, #2e3338)
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -6988,6 +6989,7 @@ h4,
 h5,
 h6 {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    color: #FFC0CB;
 }
 .text-primary,
 .text-primary:hover {
